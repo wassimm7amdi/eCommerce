@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="match_parent"
+        android:layout_height="605dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/applogo"
+        android:layout_centerHorizontal="true">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="288dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="88dp"
+        android:text="chercher .. acheter"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="26dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:text="J'ai déja un compte Login"
+        android:textColor="@color/colorPrimary">
+    </Button>
+
+    <Button
+        android:id="@+id/main_join_now_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_login_btn"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:text="Join Now"
+        android:textColor="@android:color/white">
+    </Button>
+
+
+
+</RelativeLayout>
